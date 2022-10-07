@@ -1,0 +1,27 @@
+
+// 5.
+// desc : get all product
+// route : GET /api/products/
+// access : public
+https://keyboard-shop.herokuapp.com/api/products
+
+// 5.
+// desc : filter
+// route : GET /api/products/?countInStock=${inStock}&?priceFrom=${priceFrom}&?priceTo=${priceTo}&?fieldSort=${price || name}&?typeSort={asc || dsc}
+// access : public
+https://keyboard-shop.herokuapp.com/api/products?countInStock=${inStock}&?priceFrom=${priceFrom}&?priceTo=${priceTo}&?fieldSort=${price || name}&?typeSort={asc || dsc}
+
+ex: https://keyboard-shop.herokuapp.com/api/products?countInStock=1&priceFrom=500&priceTo=1000&fieldSort=name&typeSort=asc
+
+
+// 6.
+// desc : get product detail
+// route GET /api/products/:id
+// access : public
+https://keyboard-shop.herokuapp.com/api/products/:id
+
+// 7.
+// desc : get product by category
+// route : GET /api/products/category/:id
+// access : public
+https://keyboard-shop.herokuapp.com/api/products/category/:id/?countInStock=${inStock}&?priceFrom=${priceFrom}&?priceTo=${priceTo}&?fieldSort=${price || name}&?typeSort={asc || dsc}

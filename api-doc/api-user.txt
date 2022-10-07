@@ -1,0 +1,43 @@
+// 1.
+// desc : register new user
+// route : POST /api/users/register
+// access : public - return token
+https://keyboard-shop.herokuapp.com/api/users/register
+
+
+// 2.
+// desc : user login to system
+// route : POST /api/users/login
+// access : public - return token
+https://keyboard-shop.herokuapp.com/api/users/login
+
+
+// 3.
+// desc : update user
+// route : PUT /api/users/profile
+// access : user -- check token
+https://keyboard-shop.herokuapp.com/api/users/profile
+
+//4
+// desc : create order
+// route : POST /api/products/order
+// access : user -- check token
+https://keyboard-shop.herokuapp.com/api/products/order
+
+// 5.
+// desc : get all product
+// route : GET /api/products/
+// access : public
+https://keyboard-shop.herokuapp.com/api/products
+
+// 6.
+// desc : get product detail
+// route GET /api/products/:id
+// access : public
+https://keyboard-shop.herokuapp.com/api/products/:id
+
+// 7.
+// desc : get product by category
+// route : GET /api/products/category/:id
+// access : public
+https://keyboard-shop.herokuapp.com/api/products/category/:id

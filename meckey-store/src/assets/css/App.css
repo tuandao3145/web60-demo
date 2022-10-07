@@ -1,0 +1,193 @@
+/* main app */
+.main-app {
+	position: relative;
+	text-align: center;
+}
+
+/* common */
+.common-layout {
+	position: relative;
+}
+
+/* main body */
+.common-body {
+	margin: 10px 5%;
+}
+
+/* navbar */
+.nav-bar {
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: lightgray;
+}
+
+.left-nav,
+.right-nav {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	background-color: lightgray !important;
+}
+
+.nav-bar .shop-ava {
+	height: 100px;
+}
+
+/* footer */
+.footer-container {
+	background-color: lightgray;
+	height: 250px;
+	padding: 20px 5%;
+}
+
+.links {
+	display: flex;
+}
+
+.links .title {
+	text-align: start;
+}
+
+.links *,
+.discord * {
+	color: black;
+}
+
+.discord a {
+	text-decoration: underline;
+}
+
+.social {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 40%;
+}
+
+.social svg {
+	height: 25px;
+	width: 25px;
+	color: black;
+}
+
+/* home category */
+.home-category {
+	display: flex;
+	flex-direction: column;
+}
+
+.home-category-title {
+	align-self: start;
+}
+
+/* all products */
+.all-products-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.all-products-list-title,
+.product-list-title {
+	align-self: start;
+}
+
+/* product card */
+.product-card img {
+	min-width: 200;
+	height: 300;
+	border: "1px solid black";
+	border-radius: "10px";
+	transition: transform 0.5s ease;
+}
+
+.product-card img:hover {
+	transform: scale(1.1);
+}
+
+.card-btn {
+	width: 50;
+	min-width: "100px";
+	display: "sticky";
+	bottom: "50px";
+	right: "-25%";
+}
+
+/* product list */
+.product-list,
+.annouce {
+	display: flex;
+	flex-direction: column;
+}
+
+.product-list,
+.product-list-title,
+.annouce-title {
+	align-self: start;
+	margin-top: 10px;
+}
+
+/* filter */
+.filter {
+	width: 100;
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.filter-title {
+	color: black;
+	align-self: start;
+}
+
+/* availability-dropdown */
+/* price-dropdown */
+button.availability-dropdown,
+button.price-dropdown {
+	border: 0px;
+}
+
+/* price-dropdown */
+.price-dropdown {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* filter label */
+.availability-label,
+.price-label {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.availability-label {
+	max-width: 300px;
+	min-width: 200px;
+}
+
+/* sorter */
+.sorter {
+	width: 100%;
+}
+
+/* product details */
+.product-img {
+	padding: 5px;
+}
+
+.product-info {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+	text-align: start;
+}
+
+.product-info .product-name {
+	font-weight: 900;
+	font-size: 40px;
+}
